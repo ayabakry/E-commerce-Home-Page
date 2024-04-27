@@ -3,12 +3,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 function Homepage() {
-    const navigation = [
-        { name: 'Dashboard', href: '#', current: true },
-        { name: 'Team', href: '#', current: false },
-        { name: 'Projects', href: '#', current: false },
-        { name: 'Calendar', href: '#', current: false },
-      ]
+   
       
       function classNames(...classes) {
         return classes.filter(Boolean).join(' ')
@@ -109,7 +104,7 @@ function Homepage() {
   
             <Disclosure.Panel className="sm:hidden">
               <div className="space-y-1 px-2 pb-3 pt-2">
-              <h4 className="text-[#ffffff]">Home</h4>
+                <h4 className="text-[#ffffff]">Home</h4>
                       <h4 className="text-[#ffffff]">About Us</h4>
                       <h4 className="text-[#ffffff]">Shope Store</h4>
                       <h4 className="text-[#ffffff]">Contact Us</h4>
