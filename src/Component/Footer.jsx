@@ -5,7 +5,8 @@ function Footer() {
 
 
         <footer className="bg-white dark:bg-gray-900">
-                                <h2 className="mb-6 text-lg font-semibold text-gray-900 uppercase dark:text-white">ALL Department </h2>
+            <br></br>
+             <h2 className=" mx-auto w-full max-w-screen-xl mt-2 text-lg font-semibold uppercase dark:text-white">ALL Department </h2>
 
             <div className="mx-auto w-full max-w-screen-xl">
                 <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
