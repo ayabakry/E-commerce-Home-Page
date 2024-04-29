@@ -4,8 +4,8 @@ function DiscountSection (){
     <div className="grid grid-cols-3">
         <img src={Sofa} className="col-span-2 ml-60"/>
         <div>
-        <h1 className="mt-40 ">Super Saving </h1>
-        <p className=" ">Sale Up to 40% off +12 months Financing</p>
+        <h1 className="mt-40 text-xl uppercase ">Super <span className="text-[#142B7B] text-base">Saving </span></h1>
+        <p className="text-[#142B7B]">Sale Up to 40% off +12 months Financing</p>
         <p className=" ">Create a room that's welcoming with a sofa or a section couach.</p>
         <p className="">Tp help you go the extra mile for comfort and style</p>
         
